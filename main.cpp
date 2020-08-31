@@ -6,7 +6,8 @@
 void exec()
 {
     QProcess *process = new QProcess();
-    process->start("gsimplecal", QCoreApplication::arguments());
+    QStringList arguments;
+    process->start("gsimplecal", arguments);
 }
 
 int main(int argc, char **argv)
