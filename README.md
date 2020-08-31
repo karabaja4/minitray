@@ -5,5 +5,7 @@ Simple tray launcher for gsimplecal
 
 Compile:
 
+```
 qmake
 make
+```
