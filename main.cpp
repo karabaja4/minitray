@@ -1,24 +1,12 @@
 #include <QApplication>
 #include <QIcon>
-#include <QDebug>
 #include <QProcess>
 #include <QSystemTrayIcon>
 
 void exec()
 {
-    QStringList arguments = QCoreApplication::arguments();
-    if (arguments.count() > 1)
-    {
-        QProcess *process = new QProcess();
-        QString program = arguments.at(1);
-        arguments.removeFirst();
-        arguments.removeFirst();
-        process->start(program, arguments);
-    }
-    else
-    {
-        qInfo("no arguments passed");
-    }
+    QProcess *process = new QProcess();
+    process->start("gsimplecal", QCoreApplication::arguments());
 }
 
 int main(int argc, char **argv)
