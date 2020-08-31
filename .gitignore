@@ -1,5 +1,5 @@
 .qmake.stash
 *.o
 Makefile
-minitray
+minitraycal
 qrc_*

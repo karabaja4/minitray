@@ -1,5 +1,5 @@
 SOURCES       = main.cpp
-RESOURCES     = minitray.qrc
+RESOURCES     = minitraycal.qrc
 
 QT += widgets
 
