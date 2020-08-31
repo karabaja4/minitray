@@ -1,0 +1,5 @@
+.qmake.stash
+*.o
+Makefile
+minitray
+qrc_*
