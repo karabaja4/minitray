@@ -1,5 +1,7 @@
 SOURCES       = main.cpp
 RESOURCES     = minitraycal.qrc
 
-QT += widgets
+target.path = /usr/bin/minitraycal
+INSTALLS += target
 
+QT += widgets
